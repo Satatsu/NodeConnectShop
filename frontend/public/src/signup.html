@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/main.css" />
+    <title>Signup</title>
+</head>
+<body>
+    <div class="wrapper">
+        <form>
+            <h1>Signup</h1>
+            <div class="input-box">
+                <input class="inputSignup" type="text" name="email" placeholder="email" required>
+                <i class='bx bxs-user'></i>
+                <div class="email error"></div>
+            </div>
+            <div class="input-box">
+                
+                <input type="password" name="password" placeholder="Password (8 symbol or more)" required></input>
+                <i class='bx bxs-lock-alt' ><img class="trueEd" src="../img/coche.png" alt=""></i>
+            </div>
+            <div class="input-box">
+                <input type="password" name="confirmPass" placeholder="Password-confirmation" required>
+                <i class='bx bxs-lock-alt' ><img class="confirmEd" src="../img/coche.png" alt=""></i>
+                <div class="password error"></div>
+            </div>
+            <button type="submit" class="btn">Signup</button>
+    
+            <div class="register-link">
+                <p>I have an account already ?</p>
+                <a href="login.html">Login</a>
+                <a href="index.html">or home</a>
+            </div>
+        </form>
+      </div><script src="./signup.js"></script>
+</body>
+</html>
