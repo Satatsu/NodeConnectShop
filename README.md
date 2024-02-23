@@ -11,6 +11,9 @@
 
 * To start, Open the terminal and follow these steps:
 ```JS
+cd NodeConnectShop
+```
+```JS
 npm install
 ```
 ### Frontend Setup
@@ -23,8 +26,9 @@ live-server --port=5501
 ```
 ### Backend Setup
 ```JS
-cd backend
+cd NodeConnectShop/backend
 ```
+
 ```JS
 nodemon app.js 
 ```
