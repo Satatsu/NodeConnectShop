@@ -25,6 +25,7 @@ npm install -g live-server
 live-server --port=5501
 ```
 ### Backend Setup
+Open a new terminal and follow these steps:
 ```JS
 cd NodeConnectShop/backend
 ```
