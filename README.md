@@ -10,30 +10,34 @@
 ## <span style="color: #5d7bc7">1_Getting Started</span>
 
 * To start, Open the terminal and follow these steps:
-```JS
+```bash
 cd NodeConnectShop
 ```
-```JS
+```bash
 npm install
 ```
 ### Frontend Setup
   
-```JS
+```bash
 npm install -g live-server
 ```
-```JS
+```bash
 live-server --port=5501
 ```
 ### Backend Setup
 Open a new terminal and follow these steps:
-```JS
+```bash
 cd NodeConnectShop/backend
 ```
 
-```JS
+Make sure you have `nodemon` installed to run the Node.js server. If you haven't installed it yet, you can do so by running the following command:
+
+```bash
+sudo npm install -g nodemon
+```
+```bash
 nodemon app.js 
 ```
-
 ## <span style="color: #934213">2_System Architecture</span>
 
 ### Backend API
